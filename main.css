@@ -1,0 +1,58 @@
+body{
+
+    font-family: 'Anton', sans-serif;
+    background-color: rgb(198, 198, 198);
+    margin: 0;
+    
+}
+
+label,input,button{
+
+    display: block;
+    margin-bottom: 10px;
+ 
+}
+
+#inputSet{
+
+    background-color: rgb(225, 225, 225);
+    width: 600px;
+    margin: 50px auto;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px rgb(150, 150, 150);
+}
+
+input{
+
+    width: 70%;
+    padding: 10px ;
+   
+}
+
+input,button{
+
+    font-family: inherit;
+}
+
+#part{
+
+    display: flex;
+    align-items: center;
+   
+}
+
+#part p{
+
+    margin-left: 10px;
+}
+
+input.warning{
+    background-color: rgb(255, 63, 63);
+
+}
+
+input.reset{
+    background-color: rgb(255, 255, 255);
+
+}
